@@ -3,13 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>homepage</title>
-	<script src="js/jquery.js"></script>
 	<link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/slicebox.css">
   <link rel="stylesheet" href="css/custom.css">
+  <script src="js/jquery.js"></script>
 	<script src="js/index.js"></script>
+  <script src="js/modernizr.custom.46884.js"></script>
+  <script src="js/jquery.slicebox.js"></script>
+
 	<script>
 		$(function () {
 			wrapFunc();
+      $('#sb-slider').slicebox();
 		});
 	</script>
 </head>
@@ -100,6 +105,24 @@
           </div>
           <div class="el__content">
             <div class="el__text">工作经历</div>
+            <div class="cslcd_content">
+              <div class="cslcd_gongzuojingli_box">
+                <ul>
+                  <li>HISTORY</li>
+                  <li>英业达集团(天津)电子技术有限公司</li>
+                  <li>2013.07 ~ 2014.10</li>
+                  <li>负责产线生产工具的维护升级</li>
+                </ul>
+              </div>
+              <div class="cslcd_gongzuojingli_box">
+                <ul>
+                  <li>CURRENT</li>
+                  <li>天津智信慧通信息技术有限公司</li>
+                  <li>2014.11 ~ current</li>
+                  <li>前端开发，大数据可视化分析</li>
+                </ul>
+              </div>
+            </div>
             <div class="el__close-btn"></div>
           </div>
         </div>
@@ -122,6 +145,12 @@
           </div>
           <div class="el__content">
             <div class="el__text">项目经历</div>
+            <div class="cslcd_content cslcd_xiangmujingli">
+              <p>中新生态城数据汇聚共享平台</p>
+              <p>
+                <a target="_blank" href="http://60.29.64.140:10443/project2016/">中新生态城建设局建设计划管理系统</a>
+              </p>
+            </div>
             <div class="el__close-btn"></div>
           </div>
         </div>
@@ -144,6 +173,20 @@
           </div>
           <div class="el__content">
             <div class="el__text">兴趣爱好</div>
+            <div class="cslcd_content">
+              <div class="cslcd_xingquaihao_img">
+                <img src="imgs/badminton.jpg" alt="">
+              </div>
+              <div class="cslcd_xingquaihao_img">
+                <img src="imgs/basketball.jpg" alt="">
+              </div>
+              <div class="cslcd_xingquaihao_img">
+                <img src="imgs/run.jpg" alt="">
+              </div>
+              <div class="cslcd_xingquaihao_img">
+                <img src="imgs/ski.png" alt="">
+              </div>
+            </div>
             <div class="el__close-btn"></div>
           </div>
         </div>
@@ -166,6 +209,25 @@
           </div>
           <div class="el__content">
             <div class="el__text">联系方式</div>
+            <div class="cslcd_content">
+              <ul class="cslcd_lianxifangshi_ul">
+                <li>电话：18630869600</li>
+                <li>QQ：  791136794</li>
+                <li>微博：weibo.com/jerryliu521</li>
+              </ul>
+              <div class="cslcd_lianxifangshi_img_wrap">
+                <ul id="sb-slider" class="sb-slider">
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="imgs/me.jpeg" alt=""/>
+                    </a>
+                    <div class="sb-description">
+                      <h3>me</h3>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div class="el__close-btn"></div>
           </div>
         </div>
